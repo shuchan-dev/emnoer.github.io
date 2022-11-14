@@ -23,9 +23,7 @@
 
 
   /* Sending Email from Contact Section */
-(function () {
-    emailjs.init("66A68JyoeUv1gZBP9");
-})();
+
 
 function sendmail() {
     let name = document.getElementById("name").value;
