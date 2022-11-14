@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="dist/output.css" rel="stylesheet" />
+    <script src='index.js'></script>
+    
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
@@ -13,7 +15,7 @@
       emailjs.init("66A68JyoeUv1gZBP9");
    })();
 </script>
-<script src='index.js'></script>
+
 
     <title>EMNoer Elevator</title>
   </head>
@@ -452,7 +454,7 @@
               >
               <input
                 type="text"
-                name="from_name"
+                name="name"
                 id="name"
                 placeholder="Your Name"
                 class="w-full bg-light text-darkprimary p-3 rounded-md focus:outline-none focus:ring-secondary focus:ring-1 focus:border-secondary" required
@@ -465,7 +467,7 @@
               <input
                 type="email"
                 id="email"
-                name="to_name"
+                name="email"
                 placeholder="example@gmail.com"
                 class="w-full bg-light text-darkprimary p-3 rounded-md focus:outline-none focus:ring-secondary focus:ring-1 focus:border-secondary" required
               />
