@@ -5,18 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="dist/output.css" rel="stylesheet" />
-    <script src='index.js'></script>
-    
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("66A68JyoeUv1gZBP9");
-   })();
-</script>
-
-
     <title>EMNoer Elevator</title>
   </head>
   <body>
@@ -486,7 +474,8 @@
             </div>
             <div class="w-full px-4">
               <button
-              onclick="sendMail()"
+              type= "button"
+              onclick="sendmail()"
                 class="text-base font-semibold text-light bg-secondary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-300"
               >
                 Send
@@ -685,6 +674,13 @@
     <!-- Footer End -->
 
     <!-- Script js -->
+    <script src='index.js'></script>
+    
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a02287bed1374b499bebafbb4da5073e"}'></script><!-- End Cloudflare Web Analytics -->
     <script src="dist/js/script.js"></script>
   </body>
