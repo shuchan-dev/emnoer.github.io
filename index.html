@@ -434,7 +434,8 @@
             </p>
           </div>
         </div>
-        <form>
+        <form action="https://formbold.com/s/3Lmyo"
+        method="POST">
           <div class="w-full md:w-2/3 md:mx-auto">
             <div class="w-full px-4 mb-8">
               <label for="name" class="text-base font-bold text-secondary"
@@ -442,8 +443,10 @@
               >
               <input
                 type="text"
+                name="name"
                 id="name"
-                class="w-full bg-light text-darkprimary p-3 rounded-md focus:outline-none focus:ring-secondary focus:ring-1 focus:border-secondary"
+                placeholder="Your Name"
+                class="w-full bg-light text-darkprimary p-3 rounded-md focus:outline-none focus:ring-secondary focus:ring-1 focus:border-secondary" required
               />
             </div>
             <div class="w-full px-4 mb-8">
@@ -453,7 +456,9 @@
               <input
                 type="email"
                 id="email"
-                class="w-full bg-light text-darkprimary p-3 rounded-md focus:outline-none focus:ring-secondary focus:ring-1 focus:border-secondary"
+                name="email"
+                placeholder="example@gmail.com"
+                class="w-full bg-light text-darkprimary p-3 rounded-md focus:outline-none focus:ring-secondary focus:ring-1 focus:border-secondary" required
               />
             </div>
             <div class="w-full px-4 mb-8">
@@ -463,11 +468,14 @@
               <textarea
                 type="text"
                 id="message"
-                class="w-full bg-light text-darkprimary p-3 rounded-md focus:outline-none focus:ring-secondary focus:ring-1 focus:border-secondary h-32"
+                name = "message"
+                placeholder="Your Message"
+                class="w-full bg-light text-darkprimary p-3 rounded-md focus:outline-none focus:ring-secondary focus:ring-1 focus:border-secondary h-32" required
               ></textarea>
             </div>
             <div class="w-full px-4">
               <button
+              type = "submit"
                 class="text-base font-semibold text-light bg-secondary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-300"
               >
                 Send
@@ -666,6 +674,7 @@
     <!-- Footer End -->
 
     <!-- Script js -->
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a02287bed1374b499bebafbb4da5073e"}'></script><!-- End Cloudflare Web Analytics -->
     <script src="dist/js/script.js"></script>
   </body>
 </html>
