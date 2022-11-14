@@ -31,8 +31,8 @@ function sendmail() {
     let message = document.getElementById("message").value;
 
         var contactParams = {
-            from_name: name,
-            from_email: email,
+            name: name,
+            email: email,
             message: message
         };
 
